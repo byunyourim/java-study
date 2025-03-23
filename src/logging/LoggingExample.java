@@ -25,6 +25,8 @@ public class LoggingExample {
 }
 
 
+// 로그 재전송 로직 잇나??
+
 class LogUtil {
     private List<String> logList = new ArrayList<>();  // 로그를 순서대로 저장할 리스트
     private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
